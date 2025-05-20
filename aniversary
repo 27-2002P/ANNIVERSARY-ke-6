@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Ulang Tahun Pernikahan!</h1>
+            <p>Semoga hari-harimu dipenuhi dengan kebahagiaan dan cinta.</p>
+        </header>
+        
+        <!-- Bagian Video -->
+        <section class="video-section">
+            <h2>Video Spesial</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Bagian Hadiah -->
+        <section class="gift-section">
+            <h2>Hadiah Spesial Untukmu</h2>
+            <div class="gift-card">
+                <img src="https://via.placeholder.com/300x200" alt="Hadiah Anniversary">
+                <div class="gift-info">
+                    <h3>Hadiah Anniversary</h3>
+                    <p>Sebuah kejutan spesial untuk merayakan momen indah ini.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Pengiriman Ucapan -->
+        <section class="message-section">
+            <h2>Kirimi Ucapan Spesial</h2>
+            <form action="#" method="POST" class="message-form">
+                <textarea placeholder="Tulis ucapanmu di sini..." required></textarea>
+                <button type="submit">Kirim Ucapan</button>
+            </form>
+        </section>
+
+        <!-- Galeri Gambar -->
+        <section class="gallery-section">
+            <h2>Kenangan Indah Bersama</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150x100" alt="Kenangan 1">
+                <img src="https://via.placeholder.com/150x100" alt="Kenangan 2">
+                <img src="https://via.placeholder.com/150x100" alt="Kenangan 3">
+                <img src="https://via.placeholder.com/150x100" alt="Kenangan 4">
+            </div>
+        </section>
+
+        <footer>
+            <p>Terima kasih telah berbagi momen indah ini bersama.</p>
+        </footer>
+    </div>
+</body>
+</html>
